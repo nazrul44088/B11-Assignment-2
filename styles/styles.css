@@ -1,0 +1,97 @@
+body{
+    /* background-image: url(../assets/bg.png); */
+}
+
+:root {
+    /* --orange:orange;     */
+  }
+
+.quicksand-font-normal {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+header, main{
+
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.display-flex{
+    display: flex;
+}
+/* navbar styles */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.menubar ul{
+    gap: 32px;
+    align-items: center;
+}
+.menubar ul>li{
+    list-style: none;
+    font-size: 1.25rem;
+}
+.menubar .home{
+    color: orange;
+    font-weight: 700;
+}
+.menubar .about{
+    color:#01ACFD;
+    font-weight: 500;
+}
+.menubar .facilities{
+    color:#05D4DF;
+    font-weight: 500;
+}
+.menubar .admission{
+    color:#5D58EF;
+    font-weight: 500;
+}
+
+.btn-primary{
+    background-color: orange;
+    color: white;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 12px;
+    font-size:1.25rem ;
+    margin-left: 186px;
+}
+/* banner section */
+.banner-container{
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.banner-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.empowering{
+    color: orange;
+}
+.vision{
+    color: skyblue;
+}
+.banner-description{
+    font-size: 1.25rem;
+}
+.btn-enroll{
+    background-color: black;
+    color: white;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 12px;
+    font-size:1.25rem ;
+}
+/* curriculum section */
+.bg-image{
+    background-image: url(../assets/bg.png);
+}
+
+
+
