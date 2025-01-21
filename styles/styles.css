@@ -1,10 +1,11 @@
 body{
-    /* background-image: url(../assets/bg.png); */
+    background-color: aquamarine;
 }
 
-:root {
-    /* --orange:orange;     */
-  }
+main{
+    background-image: url(../assets/bg.png);
+    
+}
 
 .quicksand-font-normal {
     font-family: "Quicksand", serif;
@@ -12,8 +13,7 @@ body{
     font-weight: 400;
     font-style: normal;
   }
-header, main{
-
+header, .curriculum-section, .ourstories{
     max-width: 1160px;
     margin: 0 auto;
 }
@@ -89,9 +89,119 @@ header, main{
     font-size:1.25rem ;
 }
 /* curriculum section */
-.bg-image{
+.curriculum-section{
+    /* background-image: url(../assets/bg.png); */
+    margin-top: 0 auto;
+}
+.section-title{
+    text-align: center;
+    font-size: 2.875rem;
+    font-weight: 700;
+    /* margin-top: 60px; */
+    /* margin-bottom: 80px; */
+}
+.curriculum-container{
+    gap: 28.29px;
+    margin-top: 80px;
+}
+.curriculum-container .card{
+    background-color: white;
+    text-align: center;
+    border: 1px solid #F2E8FF;
+    border-radius: 19px;
+    box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
+    padding-top: 53px;
+}
+.btn-action{
+    justify-items: center;
+    
+}
+.action-arrow{
+    gap: 10px;
+}
+.btn-circle{
+    background-color: orange;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 2rem;
+    font-weight:500;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+/* our stories styles */
+
+.ourstories{
     background-image: url(../assets/bg.png);
+    margin: 0 auto;
 }
 
+.stories-container{
+    gap: 19px;
+}
+
+.lifeskills{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 19px;
+}
+
+.coloring-training .btn-story-1{
+    padding: 15px 19px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 47.93px;
+    margin-left: 38.35px;
+}
+.coloring-training{
+    background-color: white;
+    border: 1px solid aquamarine;
+    border-radius: 16px;
+    
+}
+.stories-container img{
+    border-radius: 16px 16px 0 0;
+}
+.coloring-training h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-left: 38.35px;
+    padding-right: 38.35px;
+}
+.coloring-training p{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 28.8px;
+    color: #666666;
+    padding-left: 38.35px;
+    padding-right: 38.35px;
+}
+.lifeskills .skills{
+    background-color: white;
+    border-radius: 16px;
+}
+.lifeskills .skills-title{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 28.8px;
+    padding-left: 38px;
+    padding-right: 54px;
+}
+.lifeskills button{
+    padding: 15px 19px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 47.93px;
+    margin-left: 38.35px;
+}
+.ourstories .btn-view{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
 
 
