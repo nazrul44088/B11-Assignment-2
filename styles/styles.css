@@ -60,6 +60,13 @@ header, .curriculum-section, .ourstories{
     font-size:1.25rem ;
     margin-left: 186px;
 }
+
+.open-menu{
+    top:50% ;
+    right: 20px;
+    transform: translateY(-50%);
+    display: none;
+}
 /* banner section */
 .banner-container{
     align-items: center;
@@ -366,6 +373,67 @@ header, .curriculum-section, .ourstories{
     font-size:1.625rem;
     font-weight: bold;
 }
+
+@media screen and (max-width:576px){
+    
+    .header{
+        margin: 10px auto;
+    }
+    
+    .logo-title{
+        display: none;
+    }
+    .menu-list{
+        display: none;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .banner-container img{
+        max-width: 100%;
+    }
+    .curriculum-container{
+        flex-direction: column;
+    }
+    .stories-container{
+        flex-direction: column;
+    }
+    .action-arrow{
+        display: none;
+    }
+    .coloring-training{
+        display: none;
+    }
+    .lifeskills{
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+        max-width: 100%;
+    }
+    .skills-1,.skills-2,.skills-3,.skills-4{
+        max-width: 100%;
+    }
+    .footer-container{
+        flex-direction: column;
+        text-align: left;
+    }
+    .footer-logo-title{
+        
+        text-align: left;
+    }
+    .footer{
+        text-align: left;
+        padding-left: 20px;
+    }
+    }
+    
+    
+    
+
+    
+    
+    
+
 
 
 
