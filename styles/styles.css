@@ -104,13 +104,27 @@ header, .curriculum-section, .ourstories{
     gap: 28.29px;
     margin-top: 80px;
 }
-.curriculum-container .card{
-    background-color: white;
+.curriculum-container .card-1,.card-2,.card-3{
+    background-color: #FFFFFF;
     text-align: center;
-    border: 1px solid #F2E8FF;
+    /* border: 1px solid #F2E8FF; */
     border-radius: 19px;
-    box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
+    box-shadow:0 30px 28.3px 0.94px rgba(0, 0, 0, 0.05) inset ;
     padding-top: 53px;
+    padding-bottom: 60px;
+}
+
+/* .curriculum-container .card-2{
+    box-shadow: 0px 30px 28px 0.94px #FFF4DC inset; */
+
+.read-more-1{
+    color: #64C8FF;
+}
+.read-more-2{
+    color:#F0AA00;
+}
+.read-more-3{
+    color:#8700FF;
 }
 .btn-action{
     justify-items: center;
@@ -157,10 +171,26 @@ header, .curriculum-section, .ourstories{
     margin-left: 38.35px;
 }
 .coloring-training{
+    position: relative;
+    width: 100%;
+    max-width: 540px;
     background-color: white;
     border: 1px solid aquamarine;
     border-radius: 16px;
     
+}
+.coloring-training img{
+    width: 100%;
+}
+
+.coloring-training .btn-story-1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: -145px;
+    margin-top: 40px;
+
 }
 .stories-container img{
     border-radius: 16px 16px 0 0;
@@ -179,7 +209,7 @@ header, .curriculum-section, .ourstories{
     padding-left: 38.35px;
     padding-right: 38.35px;
 }
-.lifeskills .skills{
+.lifeskills .skills-1,.skills-2,.skills-3, .skills-4{
     background-color: white;
     border-radius: 16px;
 }
@@ -189,19 +219,153 @@ header, .curriculum-section, .ourstories{
     line-height: 28.8px;
     padding-left: 38px;
     padding-right: 54px;
+    
 }
+.skills-1{
+    position:relative;
+    width: 100%;
+    max-width: 291px;
+}
+.skills-1 img{
+    width: 100%;
+}
+.skills-1 .skills-btn1{
+    width: 65%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 37px;
+    margin-left: -15px;    
+}
+.skills-2{
+    position:relative;
+    width: 100%;
+    max-width: 291px;
+}
+.skills-2 img{
+    width: 100%;
+}
+.skills-2 .skills-btn2{
+    width: 65%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 37px;
+    margin-left: -15px;    
+}
+.skills-3{
+    position:relative;
+    width: 100%;
+    max-width: 291px;
+}
+.skills-3 img{
+    width: 100%;
+}
+.skills-3 .skills-btn3{
+    width: 65%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 28px;
+    margin-left: -15px;    
+}
+.skills-4{
+    position:relative;
+    width: 100%;
+    max-width: 291px;
+}
+.skills-4 img{
+    width: 100%;
+}
+.skills-4 .skills-btn4{
+    width: 65%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 28px;
+    margin-left: -15px;    
+}
+
+
 .lifeskills button{
     padding: 15px 19px;
     font-size: 1rem;
     font-weight: 500;
     border: none;
     border-radius: 47.93px;
-    margin-left: 38.35px;
+    /* margin-left: 38.35px; */
+}
+.btn-story-1{
+    background-color: #3CD8E8;
+}
+.skills-btn1{
+    background-color:#95B226;
+}
+.skills-btn2{
+    background-color:#5D58F0;
+}
+.skills-btn3{
+    background-color:#95B226;
+}
+.skills-btn4{
+    background-color:#95B226;
 }
 .ourstories .btn-view{
     text-align: center;
     margin-top: 80px;
     margin-bottom: 60px;
 }
+
+/* footer section styles */
+.footer{
+    background-color: #01ACFD;
+}
+.footer-container{
+    max-width:1160px;
+    margin: 0 auto;
+    color: white;
+    justify-content: space-between; 
+    padding: 123px 0 174px 0;
+          
+}
+.footer-section-1{
+    max-width: 400px;
+    
+}
+.footer-logo-title{
+    align-items: center;
+}
+
+.footer-logo-title h1{
+    font-size: 2.5rem;
+    line-height: 36px;
+    margin: 0;
+}
+.footer-logo-title p{
+    font-size: 1.25rem;
+}
+    
+
+.footer-section-2 h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.footer-section-2 ul{
+    padding-left: 0;
+}
+.footer-section-2 li{
+    list-style: none;
+    line-height: 30px;
+    
+}
+.footer-section-3 h3{
+    font-size:1.625rem;
+    font-weight: bold;
+}
+
 
 
